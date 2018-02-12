@@ -19,6 +19,8 @@
   },
   "devDependencies": {
     "fantasy-land": "3.5.0",
+    "fantasy-laws": "fantasyland/fantasy-laws#70009ddfc91318e7cb4f15920554253b27220c8d",
+    "jsverify": "0.8.x",
     "sanctuary-benchmark": "1.0.x",
     "sanctuary-scripts": "1.0.x"
   },
