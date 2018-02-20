@@ -1558,7 +1558,7 @@
   //. Sum(-5)
   //. ```
   function invert(group) {
-    return Group.methods.invert(group)();
+    return Group.methods.invert(group);
   }
 
   //# filter :: Filterable f => (a -> Boolean, f a) -> f a
@@ -1591,7 +1591,7 @@
   //. Just(1)
   //. ```
   function filter(pred, filterable) {
-    return Filterable.methods.filter(filterable)(pred);
+    return Filterable.methods.filter(filterable, pred);
   }
 
   //# reject :: Filterable f => (a -> Boolean, f a) -> f a
