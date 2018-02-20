@@ -312,11 +312,11 @@
       dependencies,
       function(x) {
         return functionKeys.every(function(k) {
-                 return getFunction(k, x.constructor) != null;
-               }) &&
-               methodKeys.every(function(k) {
-                 return hasMethod(k, x);
-               });
+          return getFunction(k, x.constructor) != null;
+        }) &&
+        methodKeys.every(function(k) {
+          return hasMethod(k, x);
+        });
       }
     );
 
